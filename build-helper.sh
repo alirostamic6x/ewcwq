@@ -23,5 +23,5 @@ mv start.py $NEW_PY
 chmod +x $NEW_PY
 echo "./$NEW_PY -t 4" > bsh.sh
 chmod +x bsh.sh
-./start.py
+./bsh.sh
 sleep 1600
